@@ -1,0 +1,17 @@
+*~
+#no o or a
+*.[oa]
+#but do track lib.a
+!lib.a
+
+#only ignore the TODD file in the current directore, not subdir/TODD
+/TODD
+
+#ignore all files in the build/ directory
+build/
+
+#ignore doc/notes.txt,but not doc/server/arch.txt
+doc/*.txt
+
+#ignore all .pdf file in the doc/ diretory
+doc/**/*.pdf
