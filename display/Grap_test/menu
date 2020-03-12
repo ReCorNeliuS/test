@@ -1,0 +1,10 @@
+#!/bin/bash
+function menu {
+	clear
+	echo
+	echo -e "\t\t\tSys Admin Menu\n"
+	echo -e "\t1. Diskplay disk space"
+	echo -e "\t2. Diskplay logged on users"
+	echo -e "\t3. Display memory usage"
+	echo -e "\t0. Exit program\n\n"
+

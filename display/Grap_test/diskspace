@@ -1,0 +1,5 @@
+#!/bin/bash
+function diskspace {
+	clear
+	echo "This is where the diskspace commands will go"
+}
