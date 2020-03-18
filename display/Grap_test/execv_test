@@ -1,0 +1,20 @@
+#c language 
+while (TRUE)
+{
+	type_prompt();
+	read_command(command,params);
+	
+	pid=fork();    #create subprogr
+	
+	if(pid < 0){
+		printf("unable to fork 0")
+		continue;
+	}
+	
+	if(pid!=0){
+		watipid(-1.&status,0);
+	}
+	else{
+		execve(command,params,0);
+	}
+}
