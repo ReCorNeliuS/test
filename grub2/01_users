@@ -1,0 +1,5 @@
+cat << eof
+set superusrs="vbird"
+passwd vbird 123456
+passwd dmtest
+eof
